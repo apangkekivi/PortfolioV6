@@ -1,0 +1,211 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>apang</title>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+                <div class="navbar" data-aos="flip-up" data-aos-delay="900">
+                    <div class="logo">Apang</div>
+                    <div class="menu">             
+                    
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#contact">Contact</a></li>               
+                    </div>
+                    
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </header>
+            
+            <main>
+                <!-- home -->
+                <div class="home">
+                    <div class="verticle-links">
+                        <ul>
+                            <li>
+                            <a href="#">
+                                <i class="fab fa-instagram icon"></i>    </a>
+                            </li>
+                            <li>
+                            <a href="#"><i class="fab fa-facebook-f icon"></i></a>
+                            </li>
+                            <li>
+                            <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                            <li>
+                            <a href="#"><i class="fab fa-github icon"></i></a></li>
+                            <li>
+                            <a href="mailto:apangknyk000@gmail.com"><i class="fas fa-envelope icon"></i></a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="section-container two-column">
+                        <div class="col-left"  data-aos="fade-up" data-aos-delay="1000">
+                            <p class="subtitle-1">"Hello World..!"🙌</p>
+                            <h1 class="heading-1">I am Apang</h1>
+                            <h1 class="heading-2" data-aos="fade-up" data-aos-delay="700">Self-Taught <span>Frontend Developer</span></h1>
+                            <p class="subtitle-2" data-aos="fade-up"data-aos-delay="800">I focus on building Interactive, responsive UserInterface and turn ideas into real products</p>
+                            <p class="quotes" data-aos="fade-up" data-aos-delay="900">"If you're working on a really difficult things you're better off because there is no competition others aren't working on the same thing(Larry Page)."</p>
+
+                            <button onclick="scrollToWorks()"  class="btn">Explore My World<box-icon class="arrow-right" name='right-arrow-alt'></box-icon></button>
+                        </div>
+                        <div class="col-right" data-aos="zoom-in">
+                            <span class="Sphere"></span>
+                        </div>
+                    </div>
+                    <a href="mailto:apangknyk000@gmail.com" class="email">apangknyk000@gmail.com</a>
+                </div>
+                
+                <!-- About-section -->
+                <div class="about" id="about">
+                    <div class="section-container two-column">
+                        <div class="col-left" data-aos="fade-right">
+                        <h1 class="heading-3">About Me</h1>
+                            <p class="subtitle-3">Greetings! I'm Pangjong, but you can call me Apang. Hailing from Nagaland, India, I've carved my path as a self-taught developer. Though my journey officially began in 2020, I found myself often pulled in different directions by life's demands, hindering my full immersion into the world of coding. Despite graduating with a degree in B.A., far removed from the tech realm, my passion for programming has always burned brightly within me. <br><br>
+
+                                In February 2023, I made a pivotal decision to bid farewell to my 9-5 job, dedicating every waking moment to mastering the craft of programming. Initially diving into Python for eight months, I encountered challenges and setbacks, yet my determination never wavered. Recognizing the need for a fresh approach, I pivoted towards HTML, CSS, and JavaScript.
+                                <br><br>
+                                Today, armed with newfound confidence, I can proudly craft sleek, professional websites. As I embark on this exciting new chapter, I'm eager to continue evolving and embracing the endless possibilities that lie ahead. </p>
+                        </div>
+                        <div class="col-right" data-aos="fade-left">
+                            <img src="assets/my pic.png"  alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- skill-section -->
+                <div class="skill" data-aos="fade-up">
+                    <div class="section-container two-column">
+                        <h1 class="heading-3">Tech Stack I work on</h1>       
+                    </div>
+                    <div class="skill-img-set">
+                        <img src="assets/html (1).png" alt="">
+                        <img src="assets/css.png" alt="">
+                        <img src="assets/javascript.png" alt="">
+                        <img src="assets/react.png" alt="">
+                        <img src="assets/python.png" alt="">
+                        <img src="assets/visual-studio-code.png" alt="">
+                        <img src="assets/tailwind-removebg-preview.png" alt="">
+                    </div>
+                </div>
+
+                <!-- projects-section -->
+                <div class="works" id="works">
+                    <h1 class="heading-3" data-aos="fade-up" data-aos-delay="1000">Things I have worked on</h1>
+                    <div class="section-containert">
+                        <div class="project-wrapper">
+                            <div class="projects">
+                                <p>01</p>
+                                <h1>Modern UI Design Website</h1>
+                                
+                                <p class="projects-subtitle">Web Development</p>
+                                
+                                <div class="social-links">
+                                    <a href=""><div class="github"><box-icon type='logo' name='github'></box-icon><span>Source Code</span></div></a>
+                                    <a href="https://apangkekivi.github.io/BrainWave/" target="_blank"><div class="web"><box-icon name='globe' ></box-icon><span>View Project - REACT TAILWIND CSS</span></div></a>
+                                </div>
+                             
+                            </div>
+                            <img src="assets/BRAINWAVE.png" alt="">
+                        </div>
+
+                        <div class="project-wrapper">
+                            <div class="projects">
+                                <p>02</p>
+                                <h1>Swipe Frontend Development</h1>
+                                <p class="projects-subtitle">Web Development</p>
+                                <div class="social-links">
+                                    <a href=""><div class="github"><box-icon type='logo' name='github'></box-icon><span>Source Code</span></div></a>
+                                    <a href="https://apangkekivi.github.io/swipe/" target="_blank"><div class="web"><box-icon name='globe' ></box-icon><span>View Project - HTML CSS JavaScript</span></div></a>
+                                </div>
+                            </div>
+                            <img src="assets/swipe-ss.png" alt="">
+                        </div>
+                        
+                        <div class="project-wrapper">
+                            <div class="projects">
+                                <p>03</p>
+                                <h1>Portfolio V5</h1>
+                                <p class="projects-subtitle">Web Development</p>
+                                <div class="social-links">
+                                    <a href=""><div class="github"><box-icon type='logo' name='github'></box-icon><span>Source Code</span></div></a>
+                                    <a href="https://apangkekivi.github.io/final/" target="_blank"><div class="web"><box-icon name='globe' ></box-icon><span>View Project - HTML CSS JavaScript</span></div></a>
+                                </div>
+                            </div>
+                            <img src="assets/apang.png" alt="">
+                        </div>
+                        <div class="project-wrapper">
+                            <div class="projects">
+                                <p>04</p>
+                                <h1>To do List</h1>
+                                <p class="projects-subtitle">Web Apps</p>
+                                <div class="social-links">
+                                    <a href=""><div class="github"><box-icon type='logo' name='github'></box-icon><span>Source Code</span></div></a>
+                                    <a href="https://apangkekivi.github.io/Pro-manager/" target="_blank"><div class="web"><box-icon name='globe' ></box-icon><span>View Project - REACT TAILWIND CSS     </span></div></a>
+                                </div>
+                            </div>
+                            <img src="assets/project-manger.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- contact-section -->
+                <div class="contact" id="contact" data-aos="fade-up">
+                        
+                    <div class="section-container two-column">
+                        <p class="subtitle-4">Interested in collaborating with me?</p>
+                        <p class="subtitle-5">I’m always open to discussing product design work or partnership opportunities.</p>
+                        <button class="contact-btn"><img src="assets/chat.svg" alt="">Start a conversation</button>
+                    </div>
+                </div>
+                <div class="works" >
+                    <h1 class="heading-3" data-aos="flip-up">Open for New Journey</h1>
+                    <div class="section-container two-column">
+                    <div class="content-contact" data-aos="fade-up">
+                        <p class="subtitle-6">Got a project?</p>
+                        <p class="subtitle-7">Interested in working togeather? We should quence up a time to chat. I'll buy the coffee</p>
+                        <button class="contact-btn">🤘Let's do this</button>
+                    </div>
+                    
+                    </div>
+                    <p class="subtitle-8" data-aos="fade-up">Living, learning, & leveling up one day at a time.</p>
+                    <ul >
+                        <li>
+                        <a href="#">
+                            <i class="fab fa-instagram icon"></i>    </a>
+                        </li>
+                        <li>
+                        <a href="#"><i class="fab fa-facebook-f icon"></i></a>
+                        </li>
+                        <li>
+                        <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+                        <li>
+                        <a href="#"><i class="fab fa-github icon"></i></a></li>
+                        <li>
+                        <a href="#"><i class="fas fa-envelope icon"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div class="section-container two-column">
+                        <p>Developed by Apang with❤️© 2024</p>
+                    </div>
+                </div>
+            </main>
+
+            <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+            <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+            <script src="main.js"></script>
+        </body>
+        </html>
